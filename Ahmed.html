@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <title>AHMED GOM3A OFFICE </title>
+        <link rel="stylesheet" href="Style.css" type="text/css"/>
+    </head>
+<body>
+        <div class="link">
+          <a href="#" target="_blank"> Home </a>  
+          <a href="#" target="_blank"> About us </a>  
+          <a href="#" target="_blank"> PortFolio </a>  
+          <a href="#" target="_blank"> Contact Us </a> 
+        </div>
+        <div class="Back">
+        <img src="airport-luggage.jpg" alt="Travel" title="My Travel">
+        </div>
+        
+        <form method="post" id ="myForm" name="Economy" action="/action_page.php">
+            <fieldset>
+                <h1 style="text-align: center;"> WELCOME </h1>
+                <label>
+                    Type Of Regestration </label>  &nbsp &nbsp &nbsp
+            <select id="select">
+                <option value="reserv" > Reservation </option>
+                <option value="Canceled" > Canceled</option>
+                <option value="resevCan" > Reservation after Canceled </option>
+            </select> <br>
+            <label> Your  E-mail </label>   &nbsp &nbsp &nbsp
+            <input type="text" name="Email" placeholder=" You@Example.com" id='my-input'>  <br>
+            <label> ECONOMY DEGREE : </label>                   <br>
+            <input type="radio" name="type" id="C1" value="Q" onclick="myFunction(this.value)" >
+            <label> Q </label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+            <input type="radio" name="type" id="C2" value="K" onclick="myFunction(this.value)"  >
+            <label> K  </label> <br>
+            <input type="radio" name="type" id="C3" value="H" onclick="myFunction(this.value)" >
+            <label> H </label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+            <input type="radio" name="type" id="C4" value="L" onclick="myFunction(this.value)"  >
+            <label> L </label> <br>
+            <textarea name="Comment" rows="4" cols="50"
+                      placeholder="IF you Cancled, What's the problem" id='my-input'> </textarea>
+            <br>
+            <label> Send your Photo : </label>
+            <input type="file" name="CV.information"/> </p>
+            <hr style="margin: 10px;">
+            <input type="button" style="padding:10px 30px;"
+                   name="Submit" value="Submit" onclick=" myFunction();" >
+            <input type="reset" style="padding:10px 30px;"
+                   name="Reset" value="Clear All ">
+            </fieldset>
+        </form>
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="Astyle.js"></script>
+</body>
+</html>

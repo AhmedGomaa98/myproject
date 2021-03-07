@@ -1,0 +1,54 @@
+*
+{
+    padding: 0;
+    margin:0;
+}
+.link
+{
+    background:#537dc1;
+    text-align: left;
+    padding:10px 50px;
+    overflow: hidden;
+    margin-top: auto;
+    z-index: 3;
+    width:1700px;
+    position: fixed;
+}
+.link a , a
+{
+    color:#FFF;
+    text-decoration: none;
+    padding:150px;
+}
+ a:hover
+{
+    font-weight: bold;
+    text-decoration:  underline;
+}
+.link a:active { background:#F00;padding:150px;}
+.Back img
+{
+    width:1800px;
+    height: 800px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+fieldset
+{
+    border: 3px solid #537dc1;
+    width: 600px;
+    height: 430px;
+    margin:100px 500px 100px 500px;
+    padding: 20px 50px;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+form
+{
+    position: absolute;
+    z-index: 2;
+    font-family:verdana;
+}
